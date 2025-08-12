@@ -5,7 +5,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Vite_Deploy_TEST/",
+  base: "/Echo-4o/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
