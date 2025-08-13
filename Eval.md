@@ -1,4 +1,4 @@
-# Geneval++ Image Generation & Evaluation
+# Geneval++ Evaluation
 
 ## 1. Workflow Summary
 
@@ -49,3 +49,7 @@ You will also need to provide your API key when running the evaluation.
 ⭐ Overall score (mean of tag accuracies): 73.21%
 ℹ️ Overall accuracy (all samples): 73.21%
 ```
+
+# Imagine-Bench
+
+
