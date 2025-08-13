@@ -39,4 +39,23 @@ We provide benchmark guides for GenEval++ and Imagine-Bench. For more details, s
 
 ![benchmark](assets/benchmark.jpg)
 
+## ❤️ Acknowledgements
+
+We would like to thank the following open-source projects and research works:
+
+* [Bagel](https://github.com/ByteDance-Seed/Bagel)
+* [BLIP3o](https://github.com/JiuhaiChen/BLIP3o)
+* [OmniGen2](https://github.com/VectorSpaceLab/OmniGen2?tab=readme-ov-file)
+
+
+## 📕 BibTeX 
+
+```bib
+@article{yan2025gpt-imgeval,
+      title={GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation}, 
+      author={Zhiyuan Yan and Junyan Ye and Weijia Li and Zilong Huang and Shenghai Yuan and Xiangyang He and Kaiqing Lin and Jun He and Conghui He and Li Yuan},
+      journal={arXiv preprint arXiv:2504.02782},
+      year={2025},
+}
+```
 
