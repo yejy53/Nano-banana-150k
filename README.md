@@ -25,7 +25,8 @@ We introduce Echo-4o-Image, a large-scale synthetic dataset distilled from GPT-4
 
 For better visualization, we provide an online gallery showcasing representative samples from our dataset: [Online Gallery](https://yejy53.github.io/Echo-4o/)
 
-![dataset](assets/data_curation.jpg)
+<img src="assets/data_curation.jpg" alt="dataset" width="800">
+
 
 
 ## 🤖 Echo-4o
@@ -37,7 +38,8 @@ To rigorously evaluate the model’s instruction-following and imaginative gener
 
 We provide benchmark guides for GenEval++ and Imagine-Bench. For more details, see [EVAL](EVAL.md).
 
-![benchmark](assets/benchmark.jpg)
+<img src="assets/benchmark.jpg" alt="benchmark" width="800">
+
 
 ## ❤️ Acknowledgements
 
