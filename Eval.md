@@ -6,36 +6,37 @@
 2. Run `Eval-gpt-4.1-geneval++.py` with the required parameters.
 3. Review the tag-wise and overall accuracy metrics in the output.
 
----
 
 ## 2. Image Generation
 
 Use your image generation model to produce images based on the prompts in **Geneval++.txt**.  
 Save each generated image with a filename corresponding to the **line number** in the prompt file:
 
+```shell
 1.jpg
 2.jpg
 3.jpg
 ...
-
----
+```
 
 ## 3. Evaluation
 
-The script **Eval-gpt-4.1-geneval++.py** calculates evaluation metrics for the generated images.
+The script `Eval-gpt-4.1-geneval++.py` calculates evaluation metrics for the generated images.
 
 ### Required Parameters
 
+```shell
 meta_path = Path("Geneval++.jsonl")  # Provided Geneval++ metadata
 image_dir = Path("image")            # Directory containing generated images
 output_path = Path("Output.json")    # File path for evaluation results
+```
 
 You will also need to provide your API key when running the evaluation.
 
----
 
 ## 4. Example Output
 
+```shell
 📊 Tag-wise Accuracy Report:
 🟩 Tag: color_attr             | Accuracy: 85.00% (34/40)
 🟩 Tag: spatial_count_attr     | Accuracy: 62.50% (25/40)
@@ -47,3 +48,4 @@ You will also need to provide your API key when running the evaluation.
 
 ⭐ Overall score (mean of tag accuracies): 73.21%
 ℹ️ Overall accuracy (all samples): 73.21%
+```
