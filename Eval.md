@@ -66,11 +66,12 @@ You will also need to provide your API key when running the evaluation.
 Use your image generation model to produce images based on the prompts in **Imagine.txt**.  
 Save each generated image with a filename corresponding to the **line number** in the prompt file:
 
+```shell
 1.jpg
 2.jpg
 3.jpg
 ...
-
+```
 
 
 ## 3. Evaluation
@@ -79,6 +80,7 @@ The script **Eval-gpt-4.1-Imagine.py** calculates evaluation metrics for the gen
 
 ### Command Example
 
+```shell
 python Eval-gpt-4.1-Imagine.py \
 --json_path data.jsonl \
 --image_dir images \
@@ -87,17 +89,17 @@ python Eval-gpt-4.1-Imagine.py \
 --model "gpt-4.1-2025-04-14" \
 --result_full full.json \
 --result_scores scores.jsonl
-
+```
 
 
 ## 4. Example Output
 
-📊 Tag-wise Accuracy Report:
-🟩 Tag: fantasy_fulfillment    | Accuracy: 88.00% (44/50)
-🟩 Tag: identity_preservation  | Accuracy: 82.00% (41/50)
-🟩 Tag: aesthetic_quality      | Accuracy: 90.00% (45/50)
+```shell
+[Per-Type Average Scores]  
+  Attribute shift: 8.821  
+  Hybridization: 9.339  
+  Spatiotemporal: 8.377  
+  TWO_OBJECT: 7.813  
 
-⭐ Overall score (mean of tag accuracies): 86.67%
-ℹ️ Overall accuracy (all samples): 86.67%
-
-
+[Overall Weighted Score]: 8.613
+```
