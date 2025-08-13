@@ -28,8 +28,35 @@ For better visualization, we provide an online gallery showcasing representative
 <img src="assets/data_curation.jpg" alt="dataset" width="800">
 
 
-
 ## 🤖 Echo-4o
+Our training code builds upon the [Bagel]([https://claude.ai/chat/link-to-bagel-repo](https://github.com/bytedance-seed/BAGEL)) framework with enhanced support for multi-reference datasets.
+
+#### Prerequisites
+
+First, prepare your environment by following the setup instructions in the [Bagel environments](https://github.com/bytedance-seed/BAGEL?tab=readme-ov-file#:~:text=1%EF%B8%8F%E2%83%A3-,Set%20up%20environment,-git%20clone%20https).
+
+#### Training
+
+Our training code extends Bagel's capabilities to support multi-reference datasets for training.
+
+**Data Preparation:**
+
+- Follow the same [data preparation process](https://github.com/ByteDance-Seed/Bagel/blob/main/TRAIN.md#data-prepration) as outlined in Bagel's documentation.
+- Ensure your multi-reference data follows the expected format in our data example [here]().
+
+**Training Process:** Our training scripts use the same interface and parameters as Bagel, so you can use the [existing training commands and configurations of Bagel](https://github.com/ByteDance-Seed/Bagel/blob/main/TRAIN.md#training) without modification.
+
+#### Inference
+
++ Text-to-Image Tasks
+
+For standard text-to-image generation, use the same inference process as Bagel:
+
+Refer to the [text-to-image generation example](https://github.com/yejy53/Echo-4o/Bagel/inference.ipynb) here.
+
++ Multi-Reference Tasks
+
+For tasks involving multiple references, refer to the [multi-reference example](https://github.com/yejy53/Echo-4o/Bagel/inference_multiref.ipynb) here.
 
 
 ## 📏 GenEval++ & Imagine-Bench
