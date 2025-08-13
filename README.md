@@ -17,7 +17,15 @@
 
 ![radar](assets/radar.jpg)
 
-##  Echo-4o-Image
+## 🎨Echo-4o-Image
+
+🔗 Dataset on Hugging Face: [Echo-4o-Image](https://huggingface.co/datasets/Yejy53/Echo-4o-Image)
+
+We introduce Echo-4o-Image, a large-scale synthetic dataset distilled from GPT-4o.It contains approximately 179,000 samples spanning three distinct task types: 38K surreal fantasy generation tasks, 73K multi-reference image generation tasks, and 68K complex instruction execution tasks. 
+
+For better visualization, we provide an online gallery showcasing representative samples from our dataset: [Online Gallery](https://yejy53.github.io/Echo-4o/)
+
+![dataset](assets/data_curation.jpg)
 
 
 ## 🤖 Echo-4o
