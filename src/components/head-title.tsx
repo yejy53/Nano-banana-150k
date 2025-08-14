@@ -21,14 +21,6 @@ export function TitleReveal() {
             </h2>
           </BoxReveal>
 
-          {/* <BoxReveal boxColor={"#6D83F2"} duration={0.5}>
-            <div className="mt-6">
-              <p className="text-[#F8F8F8]">
-                sss. <br />
-              </p>
-            </div>
-          </BoxReveal> */}
-
       <div className="flex items-center gap-4 mt-6">
         <BoxReveal boxColor={"#6D83F2"} duration={0.5}>
           <InteractiveHoverButton onClick={() => {
