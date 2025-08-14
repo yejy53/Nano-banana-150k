@@ -50,11 +50,11 @@ Our training scripts use the same interface and parameters as Bagel, so you can 
 
   For standard text-to-image generation, use the same inference process as Bagel:
 
-  Refer to the [text-to-image generation example](Bagel/inference.ipynb) here
+  Refer to the [text-to-image generation example](inference.ipynb) here
 
 + Multi-Reference Tasks
 
-  For tasks involving multiple references, refer to the [multi-reference example](Bagel/inference_multiref.ipynb) here
+  For tasks involving multiple references, refer to the [multi-reference example](inference_multiref.ipynb) here
 
 
 
