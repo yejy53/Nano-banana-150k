@@ -40,7 +40,7 @@ export function TitleReveal() {
         {/* 图标按钮组 */}
         <div className="flex items-center gap-3">
           <a 
-            href="https://arxiv.org/abs/your-paper" 
+            href="https://arxiv.org/abs/2508.09987" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-white hover:text-blue-400 transition-colors duration-200"
@@ -49,7 +49,7 @@ export function TitleReveal() {
           </a>
           
           <a 
-            href="https://github.com/your-repo" 
+            href="https://github.com/yejy53/Echo-4o/tree/main?tab=readme-ov-file" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-white hover:text-blue-400 transition-colors duration-200"
@@ -58,7 +58,7 @@ export function TitleReveal() {
           </a>
 
           <a 
-            href="https://huggingface.co/your-model" 
+            href="https://huggingface.co/datasets/Yejy53/Echo-4o-Image" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-white hover:text-blue-400 transition-colors duration-200"
