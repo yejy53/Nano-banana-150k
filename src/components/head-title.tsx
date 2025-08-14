@@ -41,7 +41,7 @@ export function TitleReveal() {
           </a>
           
           <a 
-            href="https://github.com/yejy53/Echo-4o/tree/main?tab=readme-ov-file" 
+            href="https://github.com/yejy53/Echo-4o/tree/master?tab=readme-ov-file" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-white hover:text-blue-400 transition-colors duration-200"
