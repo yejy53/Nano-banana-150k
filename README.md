@@ -1,5 +1,5 @@
 # Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation
-<a href="https://arxiv.org/abs/2504.02782" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
+<a href="https://arxiv.org/abs/2508.09987" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href='https://huggingface.co/datasets/Yejy53/Echo-4o-Image'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
 
 
@@ -80,9 +80,9 @@ We would like to thank the following open-source projects and research works:
 
 ```bib
 @article{yan2025gpt-imgeval,
-      title={GPT-ImgEval: A Comprehensive Benchmark for Diagnosing GPT4o in Image Generation}, 
-      author={Zhiyuan Yan and Junyan Ye and Weijia Li and Zilong Huang and Shenghai Yuan and Xiangyang He and Kaiqing Lin and Jun He and Conghui He and Li Yuan},
-      journal={arXiv preprint arXiv:2504.02782},
+      title={Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation}, 
+      author={Junyan Ye, Dongzhi Jiang, Zihao Wang, Leqi Zhu, Zhenghao Hu, Zilong Huang, Jun He, Zhiyuan Yan, Jinghua Yu, Hongsheng Li, Conghui He, Weijia Li},
+      journal={https://arxiv.org/abs/2508.09987},
       year={2025},
 }
 ```
