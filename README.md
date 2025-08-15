@@ -1,6 +1,7 @@
 # <img src="assets/logo.png" alt="Echo-4o Logo" width="35" height="35"> Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation
 <a href="https://arxiv.org/abs/2508.09987" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href='https://huggingface.co/datasets/Yejy53/Echo-4o-Image'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
+<a href='https://huggingface.co/Yejy53/Echo-4o'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow' height="25"></a>
 <a href='https://yejy53.github.io/Echo-4o/'><img src='https://img.shields.io/badge/🖼️ Website-Gallery-blue' height="25"></a>
 
 
@@ -46,6 +47,7 @@ Training Process:
 Our training scripts use the same interface and parameters as Bagel, so you can use the [existing training commands and configurations of Bagel](https://github.com/ByteDance-Seed/Bagel/blob/main/TRAIN.md#training) without modification.
 
 #### Inference
+Please first download Echo-4o [here](https://huggingface.co/Yejy53/Echo-4o)
 
 + Text-to-Image Tasks
 
