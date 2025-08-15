@@ -63,7 +63,7 @@ Our training scripts use the same interface and parameters as Bagel, so you can 
 
 To rigorously evaluate the model’s instruction-following and imaginative generation, we further introduce two novel benchmarks: **Geneval++** and **Imagine-Bench**. Geneval++ incorporates an automated evaluator powered by GPT-4.1 and significantly increases the difficulty and compositional complexity of test instructions, addressing the limitations of scoring saturation and insufficient accuracy found in existing text-to-image evaluations. Imagine-Bench focuses on imaginative generation, offering a comprehensive evaluation of conceptual creativity and visual consistency across three dimensions: fantasy fulfillment, identity preservation, and aesthetic quality.
 
-We provide benchmark guides for GenEval++ and Imagine-Bench. For more details, see [EVAL](EVAL.md).
+We provide benchmark guides for GenEval++ and Imagine-Bench. For more details, see [EVAL](Eval.md).
 
 <img src="assets/benchmark.jpg" alt="benchmark" width="800">
 
