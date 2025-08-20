@@ -78,6 +78,11 @@ We would like to thank the following open-source projects and research works:
 * [BLIP3o](https://github.com/JiuhaiChen/BLIP3o)
 * [OmniGen2](https://github.com/VectorSpaceLab/OmniGen2?tab=readme-ov-file)
 
+😊 We'd love to hear from you—feel free to reach out anytime if you have any questions!
+
+<p align="center">
+  <img src="assets/WechatGroup.jpg" alt="WechatGroup" width="350">
+</p>
 
 ## 📕 BibTeX 
 
