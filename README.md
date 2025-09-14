@@ -7,7 +7,7 @@
 
 ## 📰 News
 
-* **[2025.8.13]**  🔥 We have released **Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation**. Check out the **[** [Paper](https://arxiv.org/abs/2508.09987); [Dataset](https://huggingface.co/datasets/Yejy53/Echo-4o-Image); [Model](https://huggingface.co/Yejy53/Echo-4o); [Code](https://github.com/yejy53/Echo-4o/edit/main/README.md) **]**. 
+* **[2025.8.13]**  🔥 We have released **Echo: Harnessing Proprietary Models’ Synthetic Images for Improved Image Generation**. Check out the **[** [Paper](https://arxiv.org/abs/2508.09987); [Dataset](https://huggingface.co/datasets/Yejy53/Echo-4o-Image); [Model](https://huggingface.co/Yejy53/Echo-4o); [Code](https://github.com/yejy53/Echo-4o/edit/main/README.md) **]**. 
 
 
 ## 🏆 Contributions
