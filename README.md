@@ -1,4 +1,4 @@
-# <img src="assets/logo.png" alt="Echo-4o Logo" width="35" height="35"> Echo-4o: Harnessing the Power of GPT-4o Synthetic Images for Improved Image Generation
+# <img src="assets/logo.png" alt="Echo-4o Logo" width="35" height="35"> Echo: Harnessing Proprietary Models’ Synthetic Images for Improved Image Generation
 <a href="https://arxiv.org/abs/2508.09987" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href='https://huggingface.co/datasets/Yejy53/Echo-4o-Image'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
 <a href='https://huggingface.co/Yejy53/Echo-4o'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow' height="25"></a>
