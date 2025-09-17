@@ -5,9 +5,6 @@ import Link from "next/link";
 import Image from 'next/image';
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
 
 export function NavBar() {
   return (

@@ -208,10 +208,15 @@ export const ThemeToggleButton = ({
 };
 
 // Export a helper hook for using with View Transitions API
+type DocumentWithViewTransition = Document & {
+  startViewTransition?: (callback: () => void) => void;
+};
+
 export const useThemeTransition = () => {
   const startTransition = useCallback((updateFn: () => void) => {
-    if ('startViewTransition' in document) {
-      (document as any).startViewTransition(updateFn);
+    const doc = document as DocumentWithViewTransition;
+    if (typeof doc.startViewTransition === 'function') {
+      doc.startViewTransition(updateFn);
     } else {
       updateFn();
     }
