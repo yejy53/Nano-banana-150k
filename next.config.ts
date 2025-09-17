@@ -4,18 +4,14 @@ const repo = "nano-banana-100k";
 const assetPrefix = `/${repo}/`;
 const basePath = `/${repo}`;
 
-const isProd = process.env.NODE_ENV === "production";
-
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: isProd ? basePath : undefined,
-  assetPrefix: isProd ? assetPrefix : undefined,
+  // basePath,
+  // assetPrefix,
+  assetPrefix: "https://longhz140516.github.io/nano-banana-100k/",
   output: "export",
   images: {
     unoptimized: true,
-  },
-  env: {
-    NEXT_PUBLIC_ASSET_PREFIX: isProd ? assetPrefix : "/",
   },
 };
 

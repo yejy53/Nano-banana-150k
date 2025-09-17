@@ -11,15 +11,11 @@ import { authors } from "../info/authors";
 import { motion } from "motion/react";
 
 export function Header() {
-  const assetPrefix = process.env.NEXT_PUBLIC_ASSET_PREFIX ?? "/";
-  const backgroundUrl = `${assetPrefix}assets/head-bg.png`;
-  const easeOut = [0.16, 1, 0.3, 1] as const;
-
   return (
     <div
       className="relative flex flex-col items-center justify-center min-h-[20vh] w-full p-8 text-center"
       style={{
-        backgroundImage: `url(${backgroundUrl})`,
+        backgroundImage: "url(/assets/head-bg.png)",
         backgroundPosition: "bottom",
         backgroundRepeat: "repeat",
         backgroundSize: "cover",
@@ -31,7 +27,7 @@ export function Header() {
           className="text-5xl mb-4 font-bold"
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, ease: easeOut }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <motion.span
             initial={{ opacity: 0 }}
