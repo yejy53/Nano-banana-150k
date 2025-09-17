@@ -43,7 +43,7 @@ export default function Home() {
           Introduction
         </motion.h2>
         <motion.p className="text-base leading-7" {...fadeInUp}>
-          Nano-banana demonstrates outstanding capabilities in image generation and world knowledge, with particularly strong performance in identity consistency. In contrast, even OpenAI's GPT-4o and the most advanced open-source model, Qwen-Image, still fall noticeably short on consistency tasks. The consistency task refers to preserving the same individual's facial identity across diverse editing scenarios—such as background changes, action modifications, or style shifts—which has emerged as a critical capability for modern image generation models. 
+          Nano-banana demonstrates outstanding capabilities in image generation and world knowledge, with particularly strong performance in identity consistency. In contrast, even OpenAI&#39;s GPT-4o and the most advanced open-source model, Qwen-Image, still fall noticeably short on consistency tasks. The consistency task refers to preserving the same individual&#39;s facial identity across diverse editing scenarios—such as background changes, action modifications, or style shifts—which has emerged as a critical capability for modern image generation models. 
           <br />
           In our prior work (<Link href="https://github.com/yejy53/Echo" style={{ color: '#28affa' }}
           className="hover:underline"> Echo-4o </Link>), we highlighted the advantages of leveraging GPT-4o as a source of high-quality synthetic data—superior to natural image datasets in generating scarce samples, achieving clean instruction alignment, and composing multi-reference image sets. Building upon the insights from our previous work, we further leverage Nano-Banana to construct a large-scale, high-quality dataset that preserves individual identity across diverse and complex editing scenarios.
@@ -72,7 +72,7 @@ export default function Home() {
           />
         </motion.div>
         <motion.p className="mt-2 mb-2 text-base leading-7" {...fadeInUp}>
-          We release Nano-consistent-100k openly to support the community's development of image generation and unified models. In addition, we are conducting lightweight fine-tuning on Qwen-Image for editing tasks, and the resulting model weights will be released later this month.
+          We release Nano-consistent-100k openly to support the community&#39;s development of image generation and unified models. In addition, we are conducting lightweight fine-tuning on Qwen-Image for editing tasks, and the resulting model weights will be released later this month.
           <br />
           As shown in the Figure, the Nano-consistent-150k dataset comprises a total of 159,492 samples, including 120k single-image editing instances and 40k multi-reference generation samples, spanning eight distinct sub-tasks. 
         </motion.p>
@@ -103,13 +103,13 @@ export default function Home() {
             <TextInitial className="mt-2" />
             <AlertTitle className="mt-2">Short:</AlertTitle>
             <AlertDescription>
-              Change the man's pose to crossing his hands across his waist.
+              Change the man&#39;s pose to crossing his hands across his waist.
             </AlertDescription>
           </Alert>
         </motion.div>
         {/* action task */}
         <motion.p className="text-base leading-7" {...fadeInUp}>
-            <span className="font-semibold">Action Task:</span> We randomly define a set of action instructions that require the model to modify a subject's pose while preserving the original identity details and background. This enables the generation of diverse derivative actions. Examples include making a “Yes” gesture, crossing the arms, or introducing new props such as hats or sunglasses to create varied action expressions.
+            <span className="font-semibold">Action Task:</span> We randomly define a set of action instructions that require the model to modify a subject&#39;s pose while preserving the original identity details and background. This enables the generation of diverse derivative actions. Examples include making a “Yes” gesture, crossing the arms, or introducing new props such as hats or sunglasses to create varied action expressions.
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
@@ -123,7 +123,7 @@ export default function Home() {
         </motion.div>
         {/* background task */}
         <motion.p className="text-base leading-7" {...fadeInUp}>
-            <span className="font-semibold">Background Task:</span> We define approximately <span className="font-semibold">250 different scene locations</span>, covering landmarks, natural landscapes, and common indoor and outdoor environments. The task requires replacing the original background with a new setting while preserving the subject's identity. Examples include switching the background to an indoor photo studio, a snowy mountain outdoors, or various scenic landmarks.
+            <span className="font-semibold">Background Task:</span> We define approximately <span className="font-semibold">250 different scene locations</span>, covering landmarks, natural landscapes, and common indoor and outdoor environments. The task requires replacing the original background with a new setting while preserving the subject&#39;s identity. Examples include switching the background to an indoor photo studio, a snowy mountain outdoors, or various scenic landmarks.
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
