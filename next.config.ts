@@ -5,13 +5,11 @@ const assetPrefix = `/${repo}/`;
 const basePath = `/${repo}`;
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  // basePath,
-  // assetPrefix,
-  assetPrefix: "https://longhz140516.github.io/nano-banana-100k/",
+  basePath,
+  assetPrefix,
   output: "export",
   images: {
-    unoptimized: true,
+    unoptimized: true, // 静态导出必须加这一行
   },
 };
 

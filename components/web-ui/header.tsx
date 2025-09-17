@@ -15,7 +15,7 @@ export function Header() {
     <div
       className="relative flex flex-col items-center justify-center min-h-[20vh] w-full p-8 text-center"
       style={{
-        backgroundImage: "url(/assets/head-bg.png)",
+        backgroundImage: "url(assets/head-bg.png)",
         backgroundPosition: "bottom",
         backgroundRepeat: "repeat",
         backgroundSize: "cover",

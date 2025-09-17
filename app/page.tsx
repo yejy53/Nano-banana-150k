@@ -50,7 +50,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_intro.png"
+            src="assets/case_intro.png"
             alt="case introduction"
             width={2456}
             height={593}
@@ -63,7 +63,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_all.png"
+            src="assets/case_all.png"
             alt="case introduction"
             width={2456}
             height={593}
@@ -78,7 +78,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/data.png"
+            src="assets/data.png"
             alt="case introduction"
             width={2456}
             height={593}
@@ -113,7 +113,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_action.png"
+            src="assets/case_action.png"
             alt="action case introduction "
             width={2456}
             height={593}
@@ -127,7 +127,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_background.png"
+            src="assets/case_background.png"
             alt="background case introduction "
             width={2456}
             height={593}
@@ -141,7 +141,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_hairstyle.png"
+            src="assets/case_hairstyle.png"
             alt="hairstyle case introduction "
             width={2456}
             height={593}
@@ -155,7 +155,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_temporal.png"
+            src="assets/case_temporal.png"
             alt="temporal case introduction "
             width={2456}
             height={593}
@@ -169,7 +169,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_human.png"
+            src="assets/case_human.png"
             alt="human interaction case introduction "
             width={2456}
             height={593}
@@ -183,7 +183,7 @@ export default function Home() {
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
-            src="/assets/case_ootd.png"
+            src="assets/case_ootd.png"
             alt="ootd case introduction "
             width={2456}
             height={593}
