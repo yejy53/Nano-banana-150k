@@ -102,7 +102,7 @@ export function Header() {
             className="group"
           >
             <Link
-              href="https://huggingface.co/yejy53/Echo"
+              href="https://huggingface.co/datasets/Yejy53/Nano-consistent-150k"
             >
               <HuggingFace.Color className="size-5" />
               Dataset

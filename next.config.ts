@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
+const repo = "nano-banana-100k";
+const assetPrefix = `/${repo}/`;
+const basePath = `/${repo}`;
+
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: '/nano-banana-100k',
+  basePath,
+  assetPrefix,
   output: "export",
-  reactStrictMode: true,
 };
 
 export default nextConfig;

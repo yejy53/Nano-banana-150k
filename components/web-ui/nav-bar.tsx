@@ -20,7 +20,7 @@ export function NavBar() {
               className="rounded-full"
             />
             <Link href="/" className="text-lg font-bold">
-              Nano Banana
+              Nano Banana 150K
             </Link>
           </div>
           <div className="flex items-center gap-3">
