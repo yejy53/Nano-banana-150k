@@ -7,6 +7,9 @@
 
 ## 📰 News
 
+* **[2025.9.18]**  🔥 We have released **Nano-consistent-150k**. — the first dataset constructed using Nano-Banana that exceeds 150k high-quality samples, uniquely designed to preserve consistent human identity across diverse and complex editing scenarios. Check out the **[** [Blog](https://picotrex.github.io/Awesome-Nano-Banana-images/); [Dataset](https://huggingface.co/datasets/Yejy53/Nano-consistent-150k); [Awesome](https://github.com/PicoTrex/Awesome-Nano-Banana-images); **]**. 
+
+
 * **[2025.8.13]**  🔥 We have released **Echo: Harnessing Proprietary Models’ Synthetic Images for Improved Image Generation**. Check out the **[** [Paper](https://arxiv.org/abs/2508.09987); [Dataset](https://huggingface.co/datasets/Yejy53/Echo-4o-Image); [Model](https://huggingface.co/Yejy53/Echo-4o); [Code](https://github.com/yejy53/Echo-4o/edit/main/README.md) **]**. 
 
 
