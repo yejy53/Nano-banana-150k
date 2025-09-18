@@ -1,3 +1,18 @@
+![nano-consistent-150k](assets/nano-consistent-150k.jpg)
+
+# <img src="assets/banana.png" alt="Echo-4o Logo" width="35" height="35"> Nano-consistent-150k
+
+<a href='https://picotrex.github.io/Awesome-Nano-Banana-images/'><img src='https://img.shields.io/badge/🌐 Website-Blog-orange' height="25"></a>
+<a href='https://huggingface.co/datasets/Yejy53/Nano-consistent-150k'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
+<a href='https://github.com/PicoTrex/Awesome-Nano-Banana-images'><img src='https://img.shields.io/badge/Awesome-NanoCase-blue' height="25"></a>
+
+
+> [!TIP]
+> We present Nano-consistent-150k — the first dataset constructed using Nano-Banana that exceeds 150k high-quality samples, uniquely designed to preserve consistent human identity across diverse and complex editing scenarios.
+> A key feature is its remarkable identity consistency: for a single portrait, more than 35 distinct editing outputs are provided across diverse tasks and instructions. By anchoring on consistent human identities, the dataset enables the construction of interleaved data that seamlessly link multiple editing tasks, instructions, and modalities around the same individual.
+
+![nano-case](assets/nano-case.jpg)
+
 # <img src="assets/logo.png" alt="Echo-4o Logo" width="35" height="35"> Echo: Harnessing Proprietary Models’ Synthetic Images for Improved Image Generation
 <a href="https://arxiv.org/abs/2508.09987" target="_blank"><img src="https://img.shields.io/badge/arXiv-arXiv-red?style=badge&logo=arXiv" alt="Paper PDF" height="25"></a>
 <a href='https://huggingface.co/datasets/Yejy53/Echo-4o-Image'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow' height="25"></a>
@@ -10,7 +25,7 @@
 * **[2025.9.18]**  🔥 We have released **Nano-consistent-150k**. — the first dataset constructed using Nano-Banana that exceeds 150k high-quality samples, uniquely designed to preserve consistent human identity across diverse and complex editing scenarios. Check out the **[** [Blog](https://picotrex.github.io/Awesome-Nano-Banana-images/); [Dataset](https://huggingface.co/datasets/Yejy53/Nano-consistent-150k); [Awesome](https://github.com/PicoTrex/Awesome-Nano-Banana-images); **]**. 
 
 
-* **[2025.8.13]**  🔥 We have released **Echo: Harnessing Proprietary Models’ Synthetic Images for Improved Image Generation**. Check out the **[** [Paper](https://arxiv.org/abs/2508.09987); [Dataset](https://huggingface.co/datasets/Yejy53/Echo-4o-Image); [Model](https://huggingface.co/Yejy53/Echo-4o); [Code](https://github.com/yejy53/Echo-4o/edit/main/README.md) **]**. 
+* **[2025.8.13]**  🔥 We have released **Echo: Harnessing Proprietary Models’ Synthetic Images for Improved Image Generation**. Check out the **[** [Paper](https://arxiv.org/abs/2508.09987); [Dataset](https://huggingface.co/datasets/Yejy53/Echo-4o-Image); [Model](https://huggingface.co/Yejy53/Echo-4o); [Code](https://github.c)om/yejy53/Echo-4o/edit/main/README.md) **]**. 
 
 
 ## 🏆 Contributions
