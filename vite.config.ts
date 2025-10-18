@@ -5,7 +5,7 @@ import { defineConfig } from "vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/Echo-4o",
+  base: "/Nano-banana-150k",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
